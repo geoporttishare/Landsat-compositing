@@ -16,7 +16,7 @@ The script **OGIIR_1_browseEE.R** provides an interface to the [USGS/EROS Invent
 
 ### 2. Process L1 data to directionally normalized surface reflectance
 
-The script **OGIIR_2_srTopoBRDF.R** uses Ledaps and other USGS-EROS scripts to convert Level-1 data to surface reflectance, to mask clouds and cloud cover, and to derive Landsat viewing angles. The script further provides options for normalization of topographic effects, is a digital elevation model is provided by the user, and for BRDF normalization.  
+The script **OGIIR_2_srTopoBRDF.R** uses Ledaps and other USGS-EROS scripts to convert Level-1 data to surface reflectance, to mask clouds and cloud cover, and to derive Landsat viewing angles. The script further provides options for normalization of topographic effects, if a digital elevation model is provided by the user, and for BRDF normalization.  
 
 USGS-EROS ESPA product formatter ([https://github.com/USGS-EROS/espa-product-formatter](https://github.com/USGS-EROS/espa-product-formatter)) and ESPA Ledaps ([https://github.com/USGS-EROS/espa-surface-reflectance/tree/master/ledaps](https://github.com/USGS-EROS/espa-surface-reflectance/tree/master/ledaps)) must be installed to be able to run these scripts. 
 
